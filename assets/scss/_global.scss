@@ -1,0 +1,103 @@
+* {box-sizing:border-box}
+html{
+    font-size: 16px;
+}
+body{
+    color: $body-color;
+    background: #ffffff;
+    
+}
+#page{
+    margin-bottom: 50px;
+}
+a {
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 0;
+    li{
+        margin-left: 0;
+    }
+}
+.container{
+    background: $white;
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitle{
+    font-weight: 700;
+    font-size: 1.125rem;    
+    margin: 0 !important;
+}
+
+.subtitle-doc{
+    font-weight: 700;
+    font-size: 1.125rem;    
+    margin: 0 !important;
+    text-transform: uppercase;
+}
+
+.item-date{
+    span{
+        font-weight: 700;
+    }
+    .school{
+        font-weight: 600;
+        font-size: 0.85rem;
+        padding: 0;
+        margin: 0;
+    }
+    .city{
+        font-size: 0.85rem;        
+        padding: 0;
+        margin: 0;
+        font-style: italic;
+    }
+}
+
+.paragraph{
+    padding-top: 0.5rem;
+}
+
+.list-group-item{
+    border:none;
+}
+
+.border-img{
+    width: 80px;
+    height: 80px;
+    border: 2px solid $dark;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ls-3{    
+    letter-spacing: 3px;
+}
+
+.bt{
+    border-top: 3px solid $primary;
+}
+
+.bb{
+    border-bottom: 3px solid $primary;
+}
+
+.br{
+    border-right: 3px solid $primary;
+}
+
+// redes
+.linkedin{
+    color: #0883c0;
+    font-size: 20px;
+}

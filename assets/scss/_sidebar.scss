@@ -1,0 +1,84 @@
+// sidebar
+.sidebar{
+    min-height: 400px;
+    max-width: 365px;
+    background: $secondary;
+    padding: 40px 50px 40px 40px;
+    position: absolute;
+    color: $white;
+    a{
+        color: $white;
+    }
+    .group-sidebar{
+    }
+    .contacto{
+        h3{
+
+        }
+        ul{
+            li{
+                padding-bottom: 35px;
+                i{
+                    color: $white;
+                }
+                a{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .skills{
+        ul{
+            padding-bottom: 20px;
+            margin-bottom: 15px;
+            li{
+                color: $white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 15px;
+                span{
+                    margin-right: 7px;
+                }
+                .bar {
+                    min-width: 180px; 
+                    background-color: $dark2;
+                    height: 10px;
+                    border-radius: 5px;
+                    .skill{
+                        padding: 2px 0 0 2px;
+                        height: inherit;
+                        border-radius: inherit;
+                        background-color: $primary;
+                        
+                    }
+                  }
+                
+            }
+        }
+    }
+    .redes{
+        h3{
+            padding-bottom: 20px;
+        }
+        .contenedor{
+            background: inherit;
+            .red{
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+    .intereses{
+        h3{
+            padding-bottom: 20px;
+        }
+        .contenedor{
+            background: inherit;
+            i{
+                font-size: 35px;
+            }
+        }
+    }
+}

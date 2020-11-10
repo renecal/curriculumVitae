@@ -1,0 +1,54 @@
+// Header
+header{
+    .personal-information{
+        .title-profile{
+            text-transform: uppercase;
+            font-weight: 900;
+            padding: 25px 25px 0 0;
+            font-size: 4rem;
+            line-height: 52px;
+        }
+        .bg-subtitle{
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            padding: 3px 26px;
+        }
+       
+       
+
+    }
+    .bottom-profile{
+        background: $primary;
+        height: 100%;
+    }
+    .menu-skills{
+        background: $primary;
+        height: 100%;
+        .list-group{
+            .list-group-item{
+                background: inherit;
+                .circle{
+                    background: $white;
+                    img{
+                        width: 45px;
+                    }
+                    &:hover{
+                        border: 3px solid $dark2;
+                        img{
+                            width: 43px;
+                        }
+                    }
+                }
+            }
+        }
+        .link-portfolio{
+            h3{
+                font-size: 1.125rem;
+                span{
+                    letter-spacing: normal;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}
