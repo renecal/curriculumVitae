@@ -1,13 +1,13 @@
 # curriculumVitae
 CV en HTML5
 
-# ¿Qué Incluye?
+# ¿Qué incluye?
 
   - HTML
   - Css / Bootstrap 4.5.3
   - Sass - scss
   
-# ¿Qué Viene Más Adelante?
+# ¿Qué viene más adelante?
 
   - JS
   - ...
